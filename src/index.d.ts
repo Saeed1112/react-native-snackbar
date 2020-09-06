@@ -57,6 +57,11 @@ export interface SnackBarOptions {
    * Action button configuration options.
    */
   action?: SnackbarAction;
+  
+  /**
+   * Rtl text decoration
+   */
+  rtl?: boolean;
 }
 
 /**
